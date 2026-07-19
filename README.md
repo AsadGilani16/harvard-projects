@@ -16,13 +16,17 @@ This repository is organized by project tracks, showcasing various AI concepts f
 * **`shopping/`** 🛍️: A Machine Learning model predicting user purchase intent using K-Nearest Neighbors (KNN).
 * **`nim/`** 🕹️: An AI agent that trains itself to play the game of Nim perfectly using **Reinforcement Learning (Q-Learning)**.
 
+* ### 🧠 5-Neural Networks
+
+* **traffic/ 🚗**: An AI model that uses a Convolutional Neural Network (CNN) to identify and classify traffic signs from images with **98% accuracy**.
+
 ---
 
 ## 🛠️ Tech Stack & Tools
 
 * **Course Framework:** CS50 AI 🏫
 * **Language:** Python 🐍
-* **Libraries:** Logic, Math, Random, Time 📊
+* **Libraries:** Logic, Math, Random, Time, **TensorFlow (Keras), OpenCV, NumPy, Scikit-learn**
 * **Environment:** VS Code & Git 💻
 
 ---
@@ -32,4 +36,15 @@ This repository is organized by project tracks, showcasing various AI concepts f
 ### Running Tic-Tac-Toe ❌⭕
 1. Navigate to the project directory:
    ```bash
+   
    cd 0-Search/tictactoe
+
+### Running Traffic Classifier 🚗
+
+1. Navigate to the project directory:
+   ```bash
+   cd 5-Neural Networks/traffic
+   pip install -r requirements.txt
+   python traffic.py gtsrb
+
+   
