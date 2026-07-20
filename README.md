@@ -50,6 +50,6 @@ This repository is organized by project tracks, showcasing various AI concepts f
    cd 5-Neural Networks/traffic
    pip install -r requirements.txt
    python traffic.py gtsrb
-   python predict.py path/to/image.png (ro predict a single traffic sign image )
+   python predict.py path/to/image.png (to predict a single traffic sign image )
 
    
