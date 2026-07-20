@@ -18,7 +18,7 @@ This repository is organized by project tracks, showcasing various AI concepts f
 
 ### 🧠 5-Neural Networks
 
-* **traffic/ 🚗**: An AI model that uses a Convolutional Neural Network (CNN) to identify and classify traffic signs from images with **98% accuracy**.
+* **traffic/ 🚗**: A Convolutional Neural Network (CNN) built with **TensorFlow** and **OpenCV** to classify traffic signs with **98% accuracy**. Includes a `predict.py` script for real-time single-image prediction.
 
 * * **Methodology:** Used **OpenCV** to preprocess and resize the GTSRB dataset images into normalized tensors.
 * **Architecture:** Built a deep **Convolutional Neural Network (CNN)** using **TensorFlow/Keras** featuring stacked **Conv2D** and **MaxPooling2D** layers (scaling from 32 to 64 filters) to extract complex geometric features.
@@ -50,5 +50,6 @@ This repository is organized by project tracks, showcasing various AI concepts f
    cd 5-Neural Networks/traffic
    pip install -r requirements.txt
    python traffic.py gtsrb
+   python predict.py path/to/image.png (ro predict a single traffic sign image )
 
    
