@@ -16,11 +16,11 @@ This repository is organized by project tracks, showcasing various AI concepts f
 * **`shopping/`** 🛍️: A Machine Learning model predicting user purchase intent using K-Nearest Neighbors (KNN).
 * **`nim/`** 🕹️: An AI agent that trains itself to play the game of Nim perfectly using **Reinforcement Learning (Q-Learning)**.
 
-### 🧠 5-Neural Networks
+### 🧠 [5-Neural Networks](./5-Neural Networks)
 
 * **traffic/ 🚗**: A Convolutional Neural Network (CNN) built with **TensorFlow** and **OpenCV** to classify traffic signs with **98% accuracy**. Includes a `predict.py` script for real-time single-image prediction.
 
-* * **Methodology:** Used **OpenCV** to preprocess and resize the GTSRB dataset images into normalized tensors.
+* **Methodology:** Used **OpenCV** to preprocess and resize the GTSRB dataset images into normalized tensors.
 * **Architecture:** Built a deep **Convolutional Neural Network (CNN)** using **TensorFlow/Keras** featuring stacked **Conv2D** and **MaxPooling2D** layers (scaling from 32 to 64 filters) to extract complex geometric features.
 *   **Regularization & Results:** Integrated a **Dropout** layer to eliminate overfitting, achieving a final evaluation accuracy of **98%** using the **Adam** optimizer.
 
