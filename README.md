@@ -24,6 +24,22 @@ This repository is organized by project tracks, showcasing various AI concepts f
 * **Architecture:** Built a deep **Convolutional Neural Network (CNN)** using **TensorFlow/Keras** featuring stacked **Conv2D** and **MaxPooling2D** layers (scaling from 32 to 64 filters) to extract complex geometric features.
 *   **Regularization & Results:** Integrated a **Dropout** layer to eliminate overfitting, achieving a final evaluation accuracy of **98%** using the **Adam** optimizer.
 
+  ### 🔍 Document Retrieval & NLP Question Answering Engine
+
+An Information Retrieval (IR) system built with Python and NLTK that uses **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Query Term Density** scoring to answer user prompts using a document corpus.
+
+---
+
+## 📌 Features
+
+* **Custom Tokenization Pipeline:** Text preprocessing using `nltk` to remove punctuation, normalize case, and filter out English stop words.
+* **Global IDF Indexing:** Computes log-scaled Inverse Document Frequency scores across all text files in the corpus to identify high-value keywords.
+* **TF-IDF Document Retrieval:** Ranks documents using TF-IDF matching to isolate the most relevant context file for a given prompt.
+* **Context-Aware Sentence Extraction:** Ranks sentences using Matching Word Measure (IDF sum) and Query Term Density tie-breaking to extract exact, concise answers.
+
+---
+
+
 ---
 
 ## 🛠️ Tech Stack & Tools
