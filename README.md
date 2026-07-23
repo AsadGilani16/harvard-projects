@@ -28,8 +28,6 @@ This repository is organized by project tracks, showcasing various AI concepts f
 
 An Information Retrieval (IR) system built with Python and NLTK that uses **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Query Term Density** scoring to answer user prompts using a document corpus.
 
----
-
 ## 📌 Features
 
 * **Custom Tokenization Pipeline:** Text preprocessing using `nltk` to remove punctuation, normalize case, and filter out English stop words.
@@ -46,7 +44,7 @@ An Information Retrieval (IR) system built with Python and NLTK that uses **TF-I
 
 * **Course Framework:** CS50 AI 🏫
 * **Language:** Python 🐍
-* **Libraries:** Logic, Math, Random, Time, **TensorFlow (Keras), OpenCV, NumPy, Scikit-learn**
+* **Libraries:** Logic, Math, Random, Time, **TensorFlow (Keras), OpenCV, NumPy, Scikit-learn, NLTK**
 * **Environment:** VS Code & Git 💻
 
 ---
